@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    color: ghostwhite;
+}
+body{
+    background-image:url(https://as1.ftcdn.net/jpg/04/54/47/52/1000_F_454475268_OSPe6jk1a2sbzueWpDUBS7VIctWu0tet.jpg);
+    text-align: center;
+}
+.container{
+    height:70vh;
+    width: 70vmin;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+    
+}
+.game{
+    height:70vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    color: hotpink;
+    background-color: black;
+    border-radius:1rem;
+    border: none;
+    font-size: 8vmin;   
+    align-items: center;
+    justify-content: center;
+}
+#reset-btn{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: honeydew;
+    color: black ;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#new-btn{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: floralwhite;
+    color: cornflowerblue ;
+    border: none;
+    border-radius: 1.rem;
+
+}
+#msg{
+    color: lawngreen;
+    font-size: 8vmin;
+    transition: opacity 0.5s ease-in-out;
+}
+#msg.show{
+    opacity: 1;
+
+}
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
